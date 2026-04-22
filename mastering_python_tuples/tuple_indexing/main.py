@@ -1,10 +1,16 @@
-space_movies = ('2001: A Space Odyssey', 'Interstellar', 'Star Wars: Episode IV - A New Hope', 'Gravity', 'The Martian')
+drama_movies = (
+    'The Shawshank Redemption',
+    'Forrest Gump',
+    'The Godfather',
+    'A Beautiful Mind',
+    'Fight Club',
+    'The Green Mile',
+    'The Pursuit of Happyness',
+    'Schindler\'s List'
+)
 
 # Write your code here
-first_movie = space_movies[0]
-last_movie = space_movies[-1]
+fight_club_index = drama_movies.index("Fight Club")
 
-favorite_movies = [first_movie, last_movie]
-
-# Testing 
-print("Favorite movies about space:", favorite_movies)
+# Testing
+print("The 'Fight Club' movie is at index:", fight_club_index)
